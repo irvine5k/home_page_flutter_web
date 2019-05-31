@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
             body: Column(
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+                  margin: EdgeInsets.fromLTRB(20, 60, 20, 0),
                   child: Row(
                     children: <Widget>[
                       Container(
@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
                         child: Row(
                           children: <Widget>[
                             Container(
-                              margin: EdgeInsets.symmetric(horizontal: 40),
+                              margin: EdgeInsets.symmetric(horizontal: 20),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: <Widget>[
